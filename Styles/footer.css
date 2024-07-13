@@ -1,0 +1,68 @@
+/*                                     Ending wrapper Styles */
+
+.ending-wrapper{
+    background-color: #11122b;
+    color: #cbcbcb;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    height: 440px;
+    margin-top: -4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ending-wrapper > .logo-image img{
+    width: 216px;
+    height: 100%;
+    filter: brightness(50%);
+    /* opacity: 0.5; */
+}
+
+.ending-wrapper > .contact-hours-wrapper > .hours{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 0.8em;
+    color: #cea135;
+}
+
+.ending-wrapper > .contact-hours-wrapper span{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1em;
+    letter-spacing: 1.5px;
+}
+
+.ending-wrapper > .links-wrapper{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 400px;
+}
+
+.ending-wrapper > .icons{
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ending-wrapper > .icons > .con{
+    transition: 1s;
+} 
+
+.ending-wrapper > .icons > .con a{
+    font-size: 2em;
+    color: #cbcbcb;
+    transition: 0.5s;
+}
+
+.ending-wrapper > .icons > .con a:hover{
+    color: #cea135;
+}
+
+.ending-wrapper > .copyright-wrapper{
+    margin-bottom: 42px;
+    font-size: 0.7em;
+    color: #858585;
+}
